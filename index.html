@@ -6,7 +6,11 @@
     <title>My Resume</title>
     <style>
       body {
-        text-align: center; /* Center align text by default */
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
       }
 
       .header-container {
@@ -16,7 +20,8 @@
         margin-bottom: 20px;
       }
 
-      h1, img {
+      h1,
+      img {
         margin: 0;
       }
 
@@ -26,218 +31,276 @@
       }
 
       p {
-        text-align: justify; /* Justify paragraphs */
-        margin: 0 20px; /* Add some margin for better readability */
+        text-align: justify;
+        margin: 0 20px 20px; /* Add bottom margin for space between paragraphs */
       }
 
-      h2, h3 {
-        text-align: left; /* Left align headers */
-        margin-left: 20px; /* Align headers with the justified text */
+      h2,
+      h3 {
+        text-align: left;
+        margin-left: 20px;
       }
 
       ul {
-        text-align: left; /* Left align lists */
-        margin-left: 40px; /* Indent lists */
+        text-align: left;
+        margin-left: 40px;
+      }
+
+      ul li {
+        margin-bottom: 10px; /* Add space between list items */
       }
 
       footer {
         margin-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        p,
+        ul {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+        img {
+          height: 150px;
+        }
       }
     </style>
   </head>
   <body>
     <div class="header-container">
       <h1>Antonio E. del Toro</h1>
-      <img src="./assets/images/Portrait.jpeg" alt="Portrait">
+      <img
+        src="./assets/images/Portrait.jpeg"
+        alt="Portrait of Antonio E. del Toro"
+      />
     </div>
     <hr />
-    <h2>Summary</h2>
-    <p>
-      I am a freelance full-stack web developer with hands-on experience in the
-      MERN (MongoDB, Express.js, React, Node.js) stack, and have worked in
-      turning concepts into powerful web applications. Proficient in front-end
-      and back-end development in line with the seamless execution of projects
-      in the pipeline. I can develop solid, responsive web applications using
-      MongoDB for databases, Express.js for the APIs, React for the user
-      interfaces, and Node.js for server-side development. My solutions put
-      special emphasis on performance optimization, scalability, and robust
-      security enhancements.
-    </p>
+    <section>
+      <h2>Summary</h2>
+      <p>
+        I am a freelance full-stack web developer with hands-on experience in
+        the MERN (MongoDB, Express.js, React, Node.js) stack, and have worked in
+        turning concepts into powerful web applications. Proficient in front-end
+        and back-end development in line with the seamless execution of projects
+        in the pipeline. I can develop solid, responsive web applications using
+        MongoDB for databases, Express.js for the APIs, React for the user
+        interfaces, and Node.js for server-side development. My solutions put
+        special emphasis on performance optimization, scalability, and robust
+        security enhancements.
+      </p>
 
-    <p>
-      I provide a wide range of services at the full stack, starting from the
-      earliest stages of wireframing and design to eventual deployment and
-      subsequent maintenance; API development and integration to support
-      functionality by building and integrating RESTful APIs; front-end
-      development to ensure intuitive and responsive user interfaces using
-      React; back-end development with scalable and efficient server-side
-      applications using Node.js and Express.js; MongoDB database design,
-      implementation, and maintenance in an efficient and secure manner;
-      optimization for performance for fast load times and offering a great user
-      experience through efficient applications; and adherence to robust
-      security enhancements with data protection, authentication, and
-      authorization mechanisms.
-    </p>
+      <p>
+        I provide a wide range of services at the full stack, starting from the
+        earliest stages of wireframing and design to eventual deployment and
+        subsequent maintenance; API development and integration to support
+        functionality by building and integrating RESTful APIs; front-end
+        development to ensure intuitive and responsive user interfaces using
+        React; back-end development with scalable and efficient server-side
+        applications using Node.js and Express.js; MongoDB database design,
+        implementation, and maintenance in an efficient and secure manner;
+        optimization for performance for fast load times and offering a great
+        user experience through efficient applications; and adherence to robust
+        security enhancements with data protection, authentication, and
+        authorization mechanisms.
+      </p>
 
-    <p>
-      As a result-driven individual, I execute projects for both startups and
-      established enterprises across different industries while being a
-      client-centric consultant to learn and grow through exceeding client
-      needs. I'm constantly updated about the latest trends and advancements in
-      web development to include the latest tools and best practices in the
-      services offered. I maintain transparent and regular communication with
-      clients to ensure project alignment and satisfaction, while also being an
-      expert in diagnosing issues and managing complex technical problems to
-      ensure smooth project execution and delivery.
-    </p>
+      <p>
+        As a result-driven individual, I execute projects for both startups and
+        established enterprises across different industries while being a
+        client-centric consultant to learn and grow through exceeding client
+        needs. I'm constantly updated about the latest trends and advancements
+        in web development to include the latest tools and best practices in the
+        services offered. I maintain transparent and regular communication with
+        clients to ensure project alignment and satisfaction, while also being
+        an expert in diagnosing issues and managing complex technical problems
+        to ensure smooth project execution and delivery.
+      </p>
 
-    <p>
-      I'm very passionate about starting new collaborations on challenging
-      projects. Whether you're looking to build an entire web application from
-      scratch or just need help with certain elements of your organization, I'd
-      love to work with you. Let's connect on LinkedIn or feel free to drop a
-      line. I am looking forward to connecting with like-minded professionals
-      and exploring new opportunities.
-    </p>
+      <p>
+        I'm very passionate about starting new collaborations on challenging
+        projects. Whether you're looking to build an entire web application from
+        scratch or just need help with certain elements of your organization,
+        I'd love to work with you. Let's connect on LinkedIn or feel free to
+        drop a line. I am looking forward to connecting with like-minded
+        professionals and exploring new opportunities.
+      </p>
+    </section>
 
     <hr />
-    <h2>Education</h2>
-    <ul>
-      <li>
-        Bachelor of Arts, Spanish Language & Literature - Northeastern Illinois
-        University (2014-2017)
-      </li>
-      <li>
-        Master of Arts, Latin American Literature & Culture - Northeastern
-        Illinois University (2018-2022)
-      </li>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <ul>
-      <li><h3>Full-Stack Web Developer (MERN)</h3></li>
-      <p>January 2024 - Present</p>
+    <section>
+      <h2>Education</h2>
       <ul>
         <li>
-          Freelance Full-Stack Web Developer specializing in MERN (MongoDB,
-          Express.js, React, Node.js) stack technologies, passionate about
-          crafting robust, user-centric web applications. With a strong
-          foundation in both front-end and back-end development, I collaborate
-          closely with clients to deliver tailored solutions that meet their
-          unique business needs.
+          Bachelor of Arts, Spanish Language & Literature - Northeastern
+          Illinois University (2014-2017)
         </li>
         <li>
-          On the front-end, I leverage expertise in HTML5, CSS3, JavaScript
-          (ES6+), and modern JavaScript libraries like React.js to create
-          intuitive and responsive user interfaces. Proficient in state
-          management with Redux and context API, I ensure seamless data flow and
-          optimal user experiences across devices.
-        </li>
-        <li>
-          For back-end development, I utilize Node.js and Express.js to build
-          scalable and efficient server-side applications. My experience
-          includes designing RESTful APIs, integrating third-party services, and
-          managing databases with MongoDB to implement schemas, queries, and
-          ensure data integrity and security.
-        </li>
-        <li>
-          In addition to technical skills, I excel in client communication and
-          project management, guiding stakeholders through the development
-          lifecycle from initial concept to final deployment. I prioritize
-          collaboration, feedback, and transparency to foster strong client
-          relationships and deliver projects on time and within budget.
-        </li>
-        <li>
-          Committed to lifelong learning, I stay updated with the latest web
-          development trends and technologies. I am enthusiastic about
-          leveraging my skills and experience to create innovative solutions and
-          contribute to the success of diverse projects in the digital
-          landscape.
+          Master of Arts, Latin American Literature & Culture - Northeastern
+          Illinois University (2018-2022)
         </li>
       </ul>
+    </section>
 
-      <li><h3>Executive Administrative Assistant to the CEO</h3></li>
-      <p>Nov 2022 - Dec 2023</p>
+    <hr />
+    <section>
+      <h2>Work Experience</h2>
       <ul>
         <li>
-          As an Executive Administrative Assistant to the CEO, I manage critical
-          corporate functions and support executive leadership with efficiency
-          and professionalism. My responsibilities include managing corporate
-          calendars, coordinating complex travel arrangements using the Concur
-          platform, and maintaining management report packages to provide timely
-          and accurate information for decision-making processes.
+          <h3>Full-Stack Web Developer (MERN)</h3>
+          <p>January 2024 - Present</p>
+          <ul>
+            <li>
+              Freelance Full-Stack Web Developer specializing in MERN (MongoDB,
+              Express.js, React, Node.js) stack technologies, passionate about
+              crafting robust, user-centric web applications. With a strong
+              foundation in both front-end and back-end development, I
+              collaborate closely with clients to deliver tailored solutions
+              that meet their unique business needs.
+            </li>
+            <li>
+              On the front-end, I leverage expertise in HTML5, CSS3, JavaScript
+              (ES6+), and modern JavaScript libraries like React.js to create
+              intuitive and responsive user interfaces. Proficient in state
+              management with Redux and context API, I ensure seamless data flow
+              and optimal user experiences across devices.
+            </li>
+            <li>
+              For back-end development, I utilize Node.js and Express.js to
+              build scalable and efficient server-side applications. My
+              experience includes designing RESTful APIs, integrating
+              third-party services, and managing databases with MongoDB to
+              implement schemas, queries, and ensure data integrity and
+              security.
+            </li>
+            <li>
+              In addition to technical skills, I excel in client communication
+              and project management, guiding stakeholders through the
+              development lifecycle from initial concept to final deployment. I
+              prioritize collaboration, feedback, and transparency to foster
+              strong client relationships and deliver projects on time and
+              within budget.
+            </li>
+            <li>
+              Committed to lifelong learning, I stay updated with the latest web
+              development trends and technologies. I am enthusiastic about
+              leveraging my skills and experience to create innovative solutions
+              and contribute to the success of diverse projects in the digital
+              landscape.
+            </li>
+          </ul>
         </li>
+
         <li>
-          I collaborate closely with HR on employee onboarding and offboarding
-          processes, meticulously tracking headcount reports to facilitate
-          workforce planning and management. My attention to detail and
-          organizational skills ensure a smooth experience for new hires and
-          departing employees, contributing to a cohesive and well-managed
-          workforce.
+          <h3>Executive Administrative Assistant to the CEO</h3>
+          <p>Nov 2022 - Dec 2023</p>
+          <ul>
+            <li>
+              As an Executive Administrative Assistant to the CEO, I manage
+              critical corporate functions and support executive leadership with
+              efficiency and professionalism. My responsibilities include
+              managing corporate calendars, coordinating complex travel
+              arrangements using the Concur platform, and maintaining management
+              report packages to provide timely and accurate information for
+              decision-making processes.
+            </li>
+            <li>
+              I collaborate closely with HR on employee onboarding and
+              offboarding processes, meticulously tracking headcount reports to
+              facilitate workforce planning and management. My attention to
+              detail and organizational skills ensure a smooth experience for
+              new hires and departing employees, contributing to a cohesive and
+              well-managed workforce.
+            </li>
+            <li>
+              In addition to my HR collaboration, I support office management
+              and facilities coordination, ensuring a well-maintained and
+              productive work environment. I also take pride in organizing
+              company events on behalf of the CEO and HR, managing logistics to
+              foster team cohesion through engaging and memorable gatherings.
+            </li>
+            <li>
+              Proficient in SharePoint management, Concur administration, and
+              general purchasing administration, I streamline processes and
+              optimize resources to enhance operational efficiency. I oversee
+              the management of software licenses such as DocuSign and Adobe,
+              ensuring compliance and cost-effectiveness.
+            </li>
+            <li>
+              Throughout my tenure, I have demonstrated strong multitasking
+              abilities, effective communication skills, and a proactive
+              approach to problem-solving. I thrive in fast-paced environments
+              where adaptability and attention to detail are crucial for
+              achieving organizational goals, and I am committed to delivering
+              exceptional administrative support to contribute to the CEO’s
+              strategic objectives and the overall success of the organization.
+            </li>
+          </ul>
         </li>
+
         <li>
-          In addition to my HR collaboration, I support office management and
-          facilities coordination, ensuring a well-maintained and productive
-          work environment. I also take pride in organizing company events on
-          behalf of the CEO and HR, managing logistics to foster team cohesion
-          through engaging and memorable gatherings.
-        </li>
-        <li>
-          Proficient in SharePoint management, Concur administration, and
-          general purchasing administration, I streamline processes and optimize
-          resources to enhance operational efficiency. I oversee the management
-          of software licenses such as DocuSign and Adobe, ensuring compliance
-          and cost- effectiveness.
-        </li>
-        <li>
-          Throughout my tenure, I have demonstrated strong multitasking
-          abilities, effective communication skills, and a proactive approach to
-          problem-solving. I thrive in fast-paced environments where
-          adaptability and attention to detail are crucial for achieving
-          organizational goals, and I am committed to delivering exceptional
-          administrative support to contribute to the CEO’s strategic objectives
-          and the overall success of the organization.
+          <h3>Certified Court Interpreter</h3>
+          <p>Jul 2013 - Nov 2022</p>
+          <ul>
+            <li>
+              As a Certified Court Interpreter at the Cook County Office of the
+              Chief Judge, I specialize in providing precise English/Spanish
+              interpretations for a wide range of court proceedings, including
+              criminal cases, psychiatric evaluations, traffic offenses,
+              foreclosures, evictions, debt collections, divorce proceedings,
+              custody disputes, probation and social service interviews,
+              mediations, drug and alcohol evaluations, child neglect cases,
+              juvenile adjudications, budget hearings, and attorney conferences.
+              My role is integral in facilitating clear and accurate
+              communication across various legal contexts, ensuring
+              Spanish-speaking individuals have equitable access to justice.
+            </li>
+            <li>
+              Beyond courtroom settings, I provide interpretation services
+              during attorney-client meetings, consultations, and administrative
+              hearings. I am committed to maintaining confidentiality,
+              impartiality, and accuracy in all interpretations, ensuring fair
+              and effective communication between parties. My proficiency in
+              legal terminology and procedures allows me to deliver reliable
+              interpretations that uphold the integrity of legal proceedings.
+            </li>
+            <li>
+              My certification and training have equipped me with strong
+              language skills, cultural sensitivity, and the ability to handle
+              complex legal discussions with clarity and professionalism.
+              Dedicated to supporting access to justice, I bridge language
+              barriers and facilitate transparent communication in the legal
+              system.
+            </li>
+          </ul>
         </li>
       </ul>
+    </section>
 
-
-      <li><h3>Certified Court Interpreter</h3></li>
-      <p>Jul 2013 - Nov 2022</p>
+    <hr />
+    <section>
+      <h2>Skills</h2>
       <ul>
         <li>
-	As a Certified Court Interpreter at the Cook County Office of the Chief Judge, I specialize in providing 	precise English/Spanish interpretations for a wide range of court proceedings, including criminal 	cases, psychiatric evaluations, traffic offenses, foreclosures, evictions, debt collections, divorce 	proceedings, custody disputes, probation and social service interviews, mediations, drug and alcohol 	evaluations, child neglect cases, juvenile adjudications, budget hearings, and attorney conferences. 	My role is integral in facilitating clear and accurate communication across various legal contexts, 	ensuring Spanish-speaking individuals have equitable access to justice.
+          Well-versed in Windows OS and Mac OS, Outlook 365, SharePoint, Adobe
+          Suite, Figma, HTML, CSS, Bootstrap
         </li>
+        <li>Illinois Supreme Court Certified Interpreter</li>
         <li>
-	Beyond courtroom settings, I provide interpretation services during attorney-client meetings, 	consultations, and administrative hearings. I am committed to maintaining confidentiality, impartiality, 	and accuracy in all interpretations, ensuring fair and effective communication between parties. My 	proficiency in legal terminology and procedures allows me to deliver reliable interpretations that 	uphold the integrity of legal proceedings.
+          Excellent written and verbal communication, extensive editing
+          experience of Spanish works including novels, plays, and poem
+          anthologies
         </li>
-        <li>
-	My certification and training have equipped me with strong language skills, cultural sensitivity, and the 	ability to handle complex legal discussions with clarity and professionalism. Dedicated to supporting 	access to justice, I bridge language barriers and facilitate transparent communication in the legal 	system.
-        </li>
-        <li>
+      </ul>
+    </section>
 
-
-
-
-    </ul>
     <hr />
-    <h2>Skills</h2>
-    <ul>
-      <li>
-        Well-versed in Windows OS and Mac OS, Outlook 365, SharePoint, Adobe
-        Suite, Figma, HTML, CSS, Bootstrap
-      </li>
-      <li>Illinois Supreme Court Certified Interpreter</li>
-      <li>
-        Excellent written and verbal communication, extensive editing experience
-        of Spanish works including novels, plays, and poem anthologies
-      </li>
-    </ul>
-    <hr />
-    <h2>Other</h2>
-    <ul>
-      <li><a href="./public/hobbies.html">My Hobbies</a></li>
-      <li><a href="./public/contact.html">Contact Me</a></li>
-    </ul>
+    <section>
+      <h2>Other</h2>
+      <ul>
+        <li><a href="./public/hobbies.html">My Hobbies</a></li>
+        <li><a href="./public/contact.html">Contact Me</a></li>
+      </ul>
+    </section>
 
     <footer>
       <small> © Antonio E. del Toro. All rights reserved. </small>
